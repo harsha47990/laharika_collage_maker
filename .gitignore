@@ -5,7 +5,6 @@ __pycache__/
 *.py[cod]
 *.log
 install.log
-*.exe
 build/
 dist/
 *.spec

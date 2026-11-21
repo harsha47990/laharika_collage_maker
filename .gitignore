@@ -1,0 +1,15 @@
+collage_env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+install.log
+*.exe
+build/
+dist/
+*.spec
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

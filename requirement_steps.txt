@@ -1,0 +1,17 @@
+How to Run It
+Allow script execution (one time)
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+------------------------------
+
+Run installer
+
+.\collage.ps1
+----------------------------
+
+Convert PowerShell to EXE (Optional)
+
+Install-Module ps2exe -Scope CurrentUser
+Invoke-PS2EXE collage.ps1 CollageMaker.exe -iconFile icon_collage.ico
+
+
